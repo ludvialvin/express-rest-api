@@ -1,0 +1,7 @@
+{
+    "appPort": "3001",
+    "tokenSecret": "vt8sd7fnt8dfcotb86rd68road68ardo6asdroas6",
+    "tokenLife": "1800s",
+    "refreshTokenSecret": "9328497324398264736473264786838687",
+    "refreshTokenLife": "2592000s"
+}

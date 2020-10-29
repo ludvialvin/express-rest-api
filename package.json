@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-express-mysql",
+  "version": "1.0.0",
+  "description": "Node.js Restful CRUD API with Node.js, Express and MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "gulp": "gulp server:watch",
+    "nodemon": "nodemon ./server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "restapi"
+  ],
+  "author": "Ludvi Alvin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.6",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-shell": "^0.8.0",
+    "nodemon": "^2.0.4"
+  }
+}
